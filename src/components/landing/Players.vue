@@ -58,12 +58,14 @@
                 class="mx-auto"
                 cols="auto"
               >
-                <v-btn
-                  color="accent"
-                  x-large
-                >
-                  ¡Empezar!
-                </v-btn>
+                <router-link to="/letter-puzzle">
+                  <v-btn
+                    color="accent"
+                    x-large
+                  >
+                    ¡Empezar!
+                  </v-btn>
+                </router-link>
               </v-col>
             </v-row>
           </v-theme-provider>
