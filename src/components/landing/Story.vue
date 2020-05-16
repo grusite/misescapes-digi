@@ -1,5 +1,5 @@
 <template>
-    <section id="about-me">
+    <section id="story">
         <div class="py-12"></div>
 
         <v-container class="text-center">
@@ -43,7 +43,7 @@
 
           <v-btn
             color="grey"
-            href="https://vuetifyjs.com"
+            @click="$vuetify.goTo('#players')"
             outlined
             large
           >

@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import Header from "./components/Landing/Header";
-import Footer from "./components/Landing/Footer";
+import Header from "./components/landing/Header";
+import Footer from "./components/landing/Footer";
 
 export default {
   name: "App",

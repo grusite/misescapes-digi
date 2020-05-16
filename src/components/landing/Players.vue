@@ -1,6 +1,6 @@
 <template>
     <v-sheet
-        id="contact"
+        id="players"
         color="#333333"
         dark
         tag="section"
